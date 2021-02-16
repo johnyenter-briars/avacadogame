@@ -24,6 +24,6 @@ app.get( '/', ( req, res ) => {
     res.sendFile( path.join( __dirname, 'client', 'index.html' ));
   });
 
-app.listen(process.env.port || 3000);
+app.listen(443);
 
-console.log('Running at Port 3000');
+console.log('Running at Port 443');
