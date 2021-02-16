@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/server/frontend
+cd /home/ec2-user/avacadogame/frontend
 sudo node app.js
 
 # # npm install

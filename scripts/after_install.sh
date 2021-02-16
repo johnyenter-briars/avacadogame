@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/server/frontend
+cd /home/ec2-user/avacadogame/frontend
 npm install
