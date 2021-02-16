@@ -3,7 +3,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      #installs dependencies into the node_modules/ directory
+      #installs dependencies nto the node_modules/ directory
+      - cd frontend
       - npm install
   build:
     commands:
